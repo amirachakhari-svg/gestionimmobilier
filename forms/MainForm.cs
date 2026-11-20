@@ -10,8 +10,12 @@ public class MainForm : Form
         StartPosition = FormStartPosition.CenterScreen;
 
         var onglets = new TabControl { Dock = DockStyle.Fill };
+        onglets.TabPages.Add(CreerOnglet("Tableau de bord", new DashboardControl()));
         onglets.TabPages.Add(CreerOnglet("Biens", new BiensControl()));
-        // Les autres onglets seront ajoutés ici, un par un
+        onglets.TabPages.Add(CreerOnglet("Locataires", new LocatairesControl()));
+        onglets.TabPages.Add(CreerOnglet("Contrats", new ContratsControl()));
+        onglets.TabPages.Add(CreerOnglet("Loyers", new LoyersControl()));
+        onglets.TabPages.Add(CreerOnglet("Maintenance", new MaintenanceControl()));
 
         Controls.Add(onglets);
     }

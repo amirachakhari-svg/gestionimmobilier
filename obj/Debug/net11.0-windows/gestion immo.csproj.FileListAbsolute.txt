@@ -140,3 +140,4 @@ C:\gestion immo\obj\Debug\net11.0-windows\refint\gestion immo.dll
 C:\gestion immo\obj\Debug\net11.0-windows\gestion immo.pdb
 C:\gestion immo\obj\Debug\net11.0-windows\gestion immo.genruntimeconfig.cache
 C:\gestion immo\obj\Debug\net11.0-windows\ref\gestion immo.dll
+C:\gestion immo\obj\Debug\net11.0-windows\gestion immo.sourcelink.json
